@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.*;
 
 public class PointTest {
     @Test
-    public void distance5dot325() {
+    public void distance6dot325() {
         Point a = new Point(0, 8);
         Point b = new Point(2, 2);
         double res = a.distance(b);
