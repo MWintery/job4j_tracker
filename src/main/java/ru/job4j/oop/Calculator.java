@@ -34,12 +34,10 @@ public class Calculator {
         rsl = Calculator.minus(17);
         System.out.println(rsl);
 
-        Calculator calculator1 = new Calculator();
-        rsl = calculator1.divide(25);
+        rsl = calculator.divide(25);
         System.out.println(rsl);
 
-        Calculator calculator2 = new Calculator();
-        rsl = calculator2.sumAllOperation(50);
+        rsl = calculator.sumAllOperation(50);
         System.out.println(rsl);
     }
 }
