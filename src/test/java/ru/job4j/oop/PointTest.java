@@ -21,4 +21,13 @@ public class PointTest {
         double expected = 1.414;
         assertThat(res).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    public void distance6dot324() {
+        Point a = new Point(0, 2, 2);
+        Point b = new Point(0, 8, 4);
+        double res = a.distance3d(b);
+        double expected = 6.324;
+        assertThat(res).isEqualTo(expected, withPrecision(0.01));
+    }
 }
