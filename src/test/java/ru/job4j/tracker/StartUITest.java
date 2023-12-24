@@ -5,6 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertNull;
 
 public class StartUITest {
+
     @Test
     void whenAddItem() {
         String[] answers = {"Fix PC"};
