@@ -22,7 +22,7 @@ public class StartUITest {
     @Test
     void whenReplaceItem() {
         Tracker tracker = new Tracker();
-        Item item = tracker.add(new Item("Replaced item")); /* Добавляется в tracker новая заявка */
+        Item item = tracker.add(new Item("Replaced item"));
         String replacedName = "New item name";
         Input input = new MockInput(
                 new String[] {"0", "1", replacedName, "1"}
@@ -38,7 +38,7 @@ public class StartUITest {
     @Test
     void whenDeleteItem() {
         Tracker tracker = new Tracker();
-        Item item = tracker.add(new Item("Deleted item")); /* Добавляется в tracker новая заявка */
+        Item item = tracker.add(new Item("Deleted item"));
         Input input = new MockInput(
                 new String[] {"0", "1", "1"}
         );
