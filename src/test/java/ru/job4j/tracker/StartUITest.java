@@ -12,6 +12,7 @@ import ru.job4j.tracker.output.Stub;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class StartUITest {
+
     @Test
     void whenCreateItem() {
         Output output = new Console();

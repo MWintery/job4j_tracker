@@ -5,7 +5,6 @@ import ru.job4j.tracker.input.Input;
 import ru.job4j.tracker.output.Output;
 
 public class Create implements User {
-
     private final Output output;
 
     public Create(Output output) {

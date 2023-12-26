@@ -6,6 +6,7 @@ import ru.job4j.tracker.output.Output;
 import ru.job4j.tracker.Tracker;
 
 public class Replace implements User {
+
     private final Output output;
 
     public Replace(Output output) {

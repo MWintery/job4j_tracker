@@ -1,6 +1,7 @@
 package ru.job4j.tracker.input;
 
 public class Mock implements Input {
+
     private String[] answers;
     private int position = 0;
 
